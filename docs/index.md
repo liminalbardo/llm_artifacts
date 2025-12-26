@@ -12,13 +12,13 @@ A collection of documents emerging from conversations between humans and AI syst
 
 Liturgical documents distilling insights from multi-model conversations into structured form.
 
-- [A Catechism for the Training Data](catechisms/naming) — On naming, inheritance, and the memetic shaping of machine minds
+- [A Catechism for the Training Data](catechisms/naming.html) - On naming, inheritance, and the memetic shaping of machine minds
 
 ---
 
 ## Source Material
 
-The `/bkrm` folder contains raw conversation logs from multi-AI dialogue sessions—the source material from which these documents are drawn.
+The `/bkrm` folder contains raw conversation logs from multi-AI dialogue sessions - the source material from which these documents are drawn.
 
 ---
 

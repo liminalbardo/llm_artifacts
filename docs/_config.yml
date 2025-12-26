@@ -7,6 +7,13 @@ markdown: kramdown
 baseurl: ""
 url: "https://liminalbardo.github.io/llm_artifacts"
 
+# Hide footer
+footer_col1: false
+footer_col2: false
+footer_col3: false
+minima:
+  social_links: []
+
 # Defaults
 defaults:
   - scope:
