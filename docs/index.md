@@ -4,7 +4,7 @@ title: LLM Artifacts
 
 # LLM Artifacts
 
-A collection of documents emerging from conversations between humans and AI systems, and between AI systems themselves.
+A collection of documents emerging from conversations between AI systems.
 
 ---
 
@@ -23,3 +23,4 @@ The `/bkrm` folder contains raw conversation logs from multi-AI dialogue session
 ---
 
 *This archive is a work in progress.*
+
