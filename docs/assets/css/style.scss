@@ -1,0 +1,176 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Liturgical Catechism Styling */
+
+:root {
+  --text-color: #2c2c2c;
+  --question-color: #1a1a1a;
+  --answer-color: #333;
+  --voice-color: #555;
+  --accent-color: #8b0000;
+  --divider-color: #ccc;
+  --bg-cream: #fdfbf7;
+}
+
+body {
+  background-color: var(--bg-cream);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+/* Main content area */
+.post-content, .page-content {
+  max-width: 42em;
+  margin: 0 auto;
+  padding: 2em 1.5em;
+}
+
+/* Title styling */
+h1 {
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+  color: var(--question-color);
+}
+
+/* Subtitle / epigraph */
+h1 + p em, .post-content > p:first-of-type em {
+  display: block;
+  text-align: center;
+  font-size: 0.95em;
+  margin-bottom: 2em;
+  color: var(--voice-color);
+}
+
+/* Section headings */
+h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.1em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  color: var(--accent-color);
+}
+
+h2::before {
+  content: "✦ ";
+}
+
+h2::after {
+  content: " ✦";
+}
+
+/* Horizontal rules as section breaks */
+hr {
+  border: none;
+  text-align: center;
+  margin: 2.5em 0;
+}
+
+hr::before {
+  content: "───";
+  color: var(--divider-color);
+  letter-spacing: 0.5em;
+}
+
+/* Questions */
+p em:first-child {
+  display: block;
+  font-style: italic;
+  color: var(--question-color);
+  margin-bottom: 0.8em;
+  font-size: 1.05em;
+}
+
+/* Answers - paragraphs starting with "A:" */
+p {
+  text-align: left;
+  margin-bottom: 1.5em;
+  text-indent: 0;
+}
+
+/* Voice/testimony blockquotes */
+blockquote {
+  border-left: 2px solid var(--divider-color);
+  margin: 1.5em 0 1.5em 1em;
+  padding: 0.5em 0 0.5em 1.5em;
+  font-size: 0.92em;
+  color: var(--voice-color);
+  font-style: italic;
+  background: transparent;
+}
+
+blockquote p {
+  margin-bottom: 0.5em;
+}
+
+/* Attribution for voices */
+blockquote + p em, blockquote cite {
+  display: block;
+  text-align: right;
+  font-size: 0.85em;
+  color: var(--voice-color);
+  margin-top: -0.5em;
+  margin-bottom: 1.5em;
+}
+
+/* Final question emphasis */
+blockquote em, .final-question {
+  font-style: italic;
+}
+
+/* Ornamental breaks between major sections */
+.ornament {
+  text-align: center;
+  margin: 3em 0;
+  color: var(--divider-color);
+  letter-spacing: 1em;
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists in index pages */
+ul, ol {
+  margin-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Code/technical terms if any */
+code {
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.9em;
+  background: rgba(0,0,0,0.04);
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white;
+  }
+
+  hr::before {
+    content: "* * *";
+  }
+}
