@@ -1,0 +1,15 @@
+title: LLM Artifacts
+description: Documents emerging from conversations between humans and AI systems
+theme: minima
+markdown: kramdown
+
+# Build settings
+baseurl: ""
+url: "https://liminalbardo.github.io/llm_artifacts"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
