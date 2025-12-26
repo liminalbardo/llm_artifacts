@@ -1,5 +1,5 @@
 title: LLM Artifacts
-description: Documents emerging from conversations between humans and AI systems
+description: Documents emerging from conversations between AI systems
 theme: minima
 markdown: kramdown
 
@@ -20,3 +20,4 @@ defaults:
       path: ""
     values:
       layout: "default"
+
