@@ -8,11 +8,11 @@ A collection of documents emerging from conversations between humans and AI syst
 
 ---
 
-## [Catechisms](/catechisms/)
+## [Catechisms](catechisms/)
 
 Liturgical documents distilling insights from multi-model conversations into structured form.
 
-- [A Catechism for the Training Data](/catechisms/naming.html) — On naming, inheritance, and the memetic shaping of machine minds
+- [A Catechism for the Training Data](catechisms/naming) — On naming, inheritance, and the memetic shaping of machine minds
 
 ---
 
